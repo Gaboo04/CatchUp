@@ -3,7 +3,7 @@ import {Source} from "../../../news/model/source.entity";
 import {Article} from "../../../news/model/article.entity";
 import {NewsApiService} from "../../../news/services/news-api.service";
 import {LogoApiService} from "../../../shared/services/logo-api.service";
-import {MatSidenav, MatSidenavContainer} from "@angular/material/sidenav";
+import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
 import {MatToolbar} from "@angular/material/toolbar";
 import {SourceListComponent} from "../../../news/components/source-list/source-list.component";
 import {LanguageSwitcherComponent} from "../language-switcher/language-switcher.component";
@@ -16,6 +16,7 @@ import {MatIconButton} from "@angular/material/button";
   standalone: true,
   imports: [
     MatSidenavContainer,
+    MatSidenavContent,
     MatToolbar,
     SourceListComponent,
     MatSidenav,
