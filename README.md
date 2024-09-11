@@ -1,5 +1,9 @@
 # Catchup
 
+##Summary
+Catchup News Project, illustrating presentation of news articles from news service, with news source logo obtained from third-party service. The project uses Angular, TypeScript, and Angular Material. It also includes i18n support through ngx-translate.
+
+## Framework
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
 
 ## Development server
